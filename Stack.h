@@ -51,7 +51,7 @@ public:
 	// Function: Returns a copy of top item on the stack.
 	// Pre:  Stack has been initialized.
 	// Post: If (stack is empty), EmptyStack exception is thrown;
-	//     otherwise, top element has been removed from stack.
+	//     otherwise, Returns a copy of top item on the stack.
 
 
 private:
@@ -65,6 +65,6 @@ private:
 	Node* topPtr;
 };
 
-#include "StackType.cpp"
+#include "Stack.cpp"
 
 #endif

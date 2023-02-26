@@ -5,7 +5,7 @@
 #include <cctype>
 #include <cstring>
 
-#include "StackType.h"
+#include "Stack.h"
 
 using namespace std;
 
